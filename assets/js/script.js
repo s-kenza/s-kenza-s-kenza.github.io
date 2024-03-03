@@ -193,7 +193,7 @@ for (let i = 0; i < projectsItem.length; i++) {
     modalCompanyProjects.style.color = 'var(--light-gray)';
 
 
-    console.log(this.querySelector("[data-projects-category]").innerHTML);
+
     if(this.querySelector("[data-projects-category]").innerHTML === "Applications" || this.querySelector("[data-projects-title]").innerHTML === "Arrival") {
       modalHrefProjects.style.display = "none";
     } else {
